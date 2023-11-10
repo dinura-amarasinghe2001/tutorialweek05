@@ -30,7 +30,18 @@ shapeList = new ArrayList<GeometricObject>();
                 System.out.println("Shape = Circle, Area = " +
                         shapeList.get(i).getArea() + ", Perimeter = " + shapeList.get(i).getPerimeter());
             }
-    }}
+            else if(shapeList.get(i).getShape().equals("Square")){
+                System.out.println("Shape = Square, Area = " +
+                        shapeList.get(i).getArea() + ", Perimeter = " + shapeList.get(i).getPerimeter());
+            }
+            else if(shapeList.get(i).getShape().equals("Rectangle")){
+                System.out.println("Shape = Rectangle, Area = " +
+                        shapeList.get(i).getArea() + ", Perimeter = " + shapeList.get(i).getPerimeter());
+            }
+
+    }
+
+}
 
     @Override
     public boolean runMenu() {
